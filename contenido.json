@@ -1,0 +1,826 @@
+{
+ "id": "pilates-pared-21",
+ "marca": {
+  "nombre": "Pilates en la Pared",
+  "logo": "🧘‍♀️",
+  "subtitulo": "Tu desafío de 21 días en casa",
+  "colores": {
+   "pri": "#1f7a5c",
+   "pri2": "#2fa37b",
+   "sec": "#f4b942",
+   "fondo": "#f6f3ec"
+  }
+ },
+ "necesitas": "una pared y 10 a 20 minutos",
+ "ventajas": [
+  [
+   "⏱️",
+   "10 a 20 min"
+  ],
+  [
+   "🧱",
+   "Solo una pared"
+  ],
+  [
+   "🙌",
+   "A tu ritmo"
+  ]
+ ],
+ "prueba_social": "Hecho para mujeres que quieren empezar de a poco",
+ "soporte": "soporte@tumarca.com",
+ "aviso_salud": "Hacé los ejercicios a tu ritmo. Si sentís dolor, pará. Si tenés una lesión o condición médica, consultá antes con tu médico.",
+ "preguntas": [
+  {
+   "id": "nombre",
+   "tipo": "texto",
+   "titulo": "¿Cómo te llamás?",
+   "placeholder": "Tu nombre"
+  },
+  {
+   "id": "objetivo",
+   "tipo": "opciones",
+   "titulo": "{nombre}, ¿qué querés lograr?",
+   "opciones": [
+    {
+     "valor": "panza",
+     "texto": "Afinar la panza",
+     "emoji": "🔥"
+    },
+    {
+     "valor": "cola",
+     "texto": "Levantar la cola",
+     "emoji": "🍑"
+    },
+    {
+     "valor": "postura",
+     "texto": "Mejorar la postura",
+     "emoji": "🧍‍♀️"
+    },
+    {
+     "valor": "energia",
+     "texto": "Tener más energía",
+     "emoji": "⚡"
+    },
+    {
+     "valor": "dolor",
+     "texto": "Moverme sin molestias",
+     "emoji": "🌿"
+    }
+   ]
+  },
+  {
+   "id": "edad",
+   "tipo": "opciones",
+   "titulo": "¿Cuántos años tenés?",
+   "opciones": [
+    {
+     "valor": "35-44",
+     "texto": "35 a 44",
+     "emoji": "🌸"
+    },
+    {
+     "valor": "45-54",
+     "texto": "45 a 54",
+     "emoji": "🌼"
+    },
+    {
+     "valor": "55-64",
+     "texto": "55 a 64",
+     "emoji": "🌻"
+    },
+    {
+     "valor": "65+",
+     "texto": "65 o más",
+     "emoji": "🌺"
+    }
+   ]
+  },
+  {
+   "id": "actividad",
+   "tipo": "opciones",
+   "titulo": "¿Cuánto te movés hoy?",
+   "opciones": [
+    {
+     "valor": "nada",
+     "texto": "Casi nada",
+     "emoji": "🛋️"
+    },
+    {
+     "valor": "poco",
+     "texto": "Camino un poco",
+     "emoji": "🚶‍♀️"
+    },
+    {
+     "valor": "algo",
+     "texto": "Hago algo de ejercicio",
+     "emoji": "🏃‍♀️"
+    }
+   ]
+  },
+  {
+   "id": "peso",
+   "tipo": "numero",
+   "titulo": "¿Cuánto pesás hoy?",
+   "ayuda": "Es solo para seguir tu progreso.",
+   "min": 40,
+   "max": 150,
+   "defecto": 70,
+   "unidad": "kg",
+   "opcional": true
+  },
+  {
+   "id": "zonas",
+   "tipo": "multiple",
+   "titulo": "¿Qué zonas querés trabajar más?",
+   "ayuda": "Podés elegir varias.",
+   "opciones": [
+    {
+     "valor": "panza",
+     "texto": "Panza",
+     "emoji": "⭕"
+    },
+    {
+     "valor": "piernas",
+     "texto": "Piernas",
+     "emoji": "🦵"
+    },
+    {
+     "valor": "cola",
+     "texto": "Cola",
+     "emoji": "🍑"
+    },
+    {
+     "valor": "brazos",
+     "texto": "Brazos",
+     "emoji": "💪"
+    },
+    {
+     "valor": "espalda",
+     "texto": "Espalda",
+     "emoji": "🔙"
+    }
+   ]
+  }
+ ],
+ "resultado": {
+  "cargando": "Armando tu plan personalizado…",
+  "titulo": "{nombre}, tu plan de {dias} días está listo",
+  "subtitulo": "Hecho para tu edad, tu ritmo y tus objetivos.",
+  "comparacion": [
+   {
+    "texto": "Firmeza",
+    "hoy": 25,
+    "despues": 75
+   },
+   {
+    "texto": "Energía",
+    "hoy": 30,
+    "despues": 80
+   },
+   {
+    "texto": "Postura",
+    "hoy": 35,
+    "despues": 85
+   }
+  ],
+  "puntos": [
+   "Rutinas cortas de 10 a 20 minutos",
+   "Solo necesitás una pared, sin aparatos",
+   "Cada ejercicio explicado paso a paso",
+   "Empieza suave y sube de a poco"
+  ],
+  "boton": "Empezar mi día 1"
+ },
+ "semanas": [
+  "Arranque suave",
+  "Agarrando ritmo",
+  "Más fuerte"
+ ],
+ "ejercicios": {
+  "puente": {
+   "nombre": "Puente con pies en la pared",
+   "emoji": "🌉",
+   "segundos": 40,
+   "pasos": [
+    "Acostate boca arriba con la cola cerca de la pared.",
+    "Apoyá las plantas de los pies en la pared, rodillas dobladas.",
+    "Subí la cadera despacio apretando la cola.",
+    "Bajá vértebra por vértebra. Repetí suave."
+   ],
+   "ojo": "Si te molesta la espalda, subí menos."
+  },
+  "sentadilla": {
+   "nombre": "Sentadilla apoyada en la pared",
+   "emoji": "🪑",
+   "segundos": 30,
+   "pasos": [
+    "Espalda pegada a la pared, pies a un paso adelante.",
+    "Bajá como si te sentaras en una silla invisible.",
+    "Quedate quieta respirando.",
+    "Subí despacio."
+   ],
+   "ojo": "No bajes más de lo que te resulte cómodo."
+  },
+  "flexion": {
+   "nombre": "Flexiones contra la pared",
+   "emoji": "🙌",
+   "segundos": 40,
+   "pasos": [
+    "Parate frente a la pared, a un brazo de distancia.",
+    "Manos apoyadas a la altura del pecho.",
+    "Acercá el pecho a la pared doblando los codos.",
+    "Empujá para volver. Panza apretada."
+   ]
+  },
+  "patada": {
+   "nombre": "Patada atrás de pie",
+   "emoji": "🦵",
+   "segundos": 40,
+   "repes": "alternando piernas",
+   "pasos": [
+    "Manos apoyadas en la pared.",
+    "Llevá una pierna estirada hacia atrás, apretando la cola.",
+    "Volvé despacio y cambiá de pierna."
+   ]
+  },
+  "elevacion": {
+   "nombre": "Piernas arriba en la pared",
+   "emoji": "🧘",
+   "segundos": 60,
+   "pasos": [
+    "Acostate con la cola pegada a la pared.",
+    "Subí las piernas estiradas apoyadas en la pared.",
+    "Respirá hondo y aflojá los hombros."
+   ],
+   "ojo": "Es de descanso: ideal para cerrar."
+  },
+  "abre": {
+   "nombre": "Abrir y cerrar piernas en la pared",
+   "emoji": "✌️",
+   "segundos": 40,
+   "pasos": [
+    "Piernas arriba apoyadas en la pared.",
+    "Abrilas despacio hacia los costados.",
+    "Cerralas apretando la parte interna."
+   ]
+  },
+  "marcha": {
+   "nombre": "Marcha en la pared",
+   "emoji": "🚶‍♀️",
+   "segundos": 40,
+   "pasos": [
+    "Acostate con los pies en la pared y la cadera arriba (puente).",
+    "Despegá un pie y volvelo a apoyar.",
+    "Alterná como si caminaras, sin bajar la cadera."
+   ]
+  },
+  "talones": {
+   "nombre": "Subir en puntas de pie",
+   "emoji": "👣",
+   "segundos": 40,
+   "pasos": [
+    "De frente a la pared, manos apoyadas.",
+    "Subí en puntas de pie.",
+    "Bajá despacio. Repetí."
+   ]
+  },
+  "plancha": {
+   "nombre": "Plancha inclinada en la pared",
+   "emoji": "📏",
+   "segundos": 30,
+   "pasos": [
+    "Antebrazos apoyados en la pared.",
+    "Caminá los pies hacia atrás hasta quedar en diagonal.",
+    "Cuerpo recto, panza apretada. Respirá."
+   ]
+  },
+  "lateral": {
+   "nombre": "Pierna al costado de pie",
+   "emoji": "↔️",
+   "segundos": 40,
+   "repes": "20 s cada lado",
+   "pasos": [
+    "De costado, una mano en la pared.",
+    "Subí la pierna de afuera hacia el costado, estirada.",
+    "Bajá despacio. Después cambiá de lado."
+   ]
+  },
+  "giro": {
+   "nombre": "Giro de cintura sentada",
+   "emoji": "🔄",
+   "segundos": 40,
+   "pasos": [
+    "Sentate con la espalda apoyada en la pared.",
+    "Brazos cruzados en el pecho.",
+    "Girá el torso a un lado y al otro, despacio."
+   ]
+  },
+  "angel": {
+   "nombre": "Ángel en la pared",
+   "emoji": "👼",
+   "segundos": 40,
+   "pasos": [
+    "Espalda, cabeza y brazos pegados a la pared.",
+    "Subí y bajá los brazos rozando la pared, como haciendo un ángel.",
+    "Ideal para la postura."
+   ]
+  },
+  "estiramiento": {
+   "nombre": "Estiramiento de espalda",
+   "emoji": "🌿",
+   "segundos": 45,
+   "pasos": [
+    "Manos en la pared a la altura de la cadera.",
+    "Caminá hacia atrás y bajá el pecho hasta quedar en L.",
+    "Respirá y sentí cómo se estira la espalda."
+   ]
+  },
+  "respiracion": {
+   "nombre": "Respiración para empezar",
+   "emoji": "🌬️",
+   "segundos": 45,
+   "pasos": [
+    "Parate o sentate cómoda.",
+    "Inflá la panza al tomar aire por la nariz.",
+    "Soltalo lento por la boca. Repetí."
+   ]
+  }
+ },
+ "plan": [
+  {
+   "titulo": "Primer contacto con la pared",
+   "ejercicios": [
+    "respiracion",
+    "puente",
+    "flexion",
+    "talones",
+    "elevacion"
+   ],
+   "minutos": 10,
+   "consejo": "Hoy es para conocer los movimientos. Sin apuro."
+  },
+  {
+   "titulo": "Cola y piernas",
+   "ejercicios": [
+    "respiracion",
+    "puente",
+    "patada",
+    "lateral",
+    "elevacion"
+   ],
+   "minutos": 10,
+   "consejo": ""
+  },
+  {
+   "titulo": "Postura y brazos",
+   "ejercicios": [
+    "respiracion",
+    "angel",
+    "flexion",
+    "plancha",
+    "estiramiento"
+   ],
+   "minutos": 10,
+   "consejo": ""
+  },
+  {
+   "titulo": "Piernas livianas",
+   "ejercicios": [
+    "respiracion",
+    "abre",
+    "marcha",
+    "talones",
+    "elevacion"
+   ],
+   "minutos": 10,
+   "consejo": "Si tenés piernas cansadas, el último ejercicio es tu mejor amigo."
+  },
+  {
+   "titulo": "Panza firme",
+   "ejercicios": [
+    "respiracion",
+    "plancha",
+    "giro",
+    "marcha",
+    "estiramiento"
+   ],
+   "minutos": 10,
+   "consejo": ""
+  },
+  {
+   "titulo": "Todo el cuerpo",
+   "ejercicios": [
+    "puente",
+    "sentadilla",
+    "flexion",
+    "patada",
+    "elevacion"
+   ],
+   "minutos": 12,
+   "consejo": ""
+  },
+  {
+   "titulo": "Día suave",
+   "ejercicios": [
+    "respiracion",
+    "angel",
+    "estiramiento",
+    "elevacion"
+   ],
+   "minutos": 8,
+   "consejo": "Descanso activo: moverte poco también suma."
+  },
+  {
+   "titulo": "Arranca la semana 2",
+   "ejercicios": [
+    "respiracion",
+    "puente",
+    "sentadilla",
+    "lateral",
+    "abre",
+    "elevacion"
+   ],
+   "minutos": 14,
+   "consejo": ""
+  },
+  {
+   "titulo": "Brazos y espalda",
+   "ejercicios": [
+    "angel",
+    "flexion",
+    "plancha",
+    "giro",
+    "estiramiento"
+   ],
+   "minutos": 14,
+   "consejo": ""
+  },
+  {
+   "titulo": "Cola levantada",
+   "ejercicios": [
+    "puente",
+    "marcha",
+    "patada",
+    "lateral",
+    "elevacion"
+   ],
+   "minutos": 14,
+   "consejo": ""
+  },
+  {
+   "titulo": "Equilibrio",
+   "ejercicios": [
+    "respiracion",
+    "talones",
+    "sentadilla",
+    "lateral",
+    "estiramiento"
+   ],
+   "minutos": 14,
+   "consejo": ""
+  },
+  {
+   "titulo": "Panza y cintura",
+   "ejercicios": [
+    "plancha",
+    "giro",
+    "marcha",
+    "abre",
+    "elevacion"
+   ],
+   "minutos": 14,
+   "consejo": ""
+  },
+  {
+   "titulo": "Todo el cuerpo II",
+   "ejercicios": [
+    "puente",
+    "sentadilla",
+    "flexion",
+    "patada",
+    "plancha",
+    "elevacion"
+   ],
+   "minutos": 15,
+   "consejo": ""
+  },
+  {
+   "titulo": "Día suave",
+   "ejercicios": [
+    "respiracion",
+    "angel",
+    "estiramiento",
+    "elevacion"
+   ],
+   "minutos": 8,
+   "consejo": ""
+  },
+  {
+   "titulo": "Semana 3: más fuerte",
+   "ejercicios": [
+    "puente",
+    "marcha",
+    "sentadilla",
+    "lateral",
+    "abre",
+    "elevacion"
+   ],
+   "minutos": 18,
+   "consejo": ""
+  },
+  {
+   "titulo": "Postura de reina",
+   "ejercicios": [
+    "angel",
+    "flexion",
+    "plancha",
+    "giro",
+    "estiramiento"
+   ],
+   "minutos": 18,
+   "consejo": ""
+  },
+  {
+   "titulo": "Piernas de acero",
+   "ejercicios": [
+    "sentadilla",
+    "patada",
+    "lateral",
+    "talones",
+    "abre",
+    "elevacion"
+   ],
+   "minutos": 18,
+   "consejo": ""
+  },
+  {
+   "titulo": "Cintura",
+   "ejercicios": [
+    "plancha",
+    "giro",
+    "marcha",
+    "puente",
+    "estiramiento"
+   ],
+   "minutos": 18,
+   "consejo": ""
+  },
+  {
+   "titulo": "Todo el cuerpo III",
+   "ejercicios": [
+    "puente",
+    "sentadilla",
+    "flexion",
+    "patada",
+    "plancha",
+    "giro",
+    "elevacion"
+   ],
+   "minutos": 20,
+   "consejo": ""
+  },
+  {
+   "titulo": "Repaso favorito",
+   "ejercicios": [
+    "respiracion",
+    "puente",
+    "angel",
+    "lateral",
+    "abre",
+    "elevacion"
+   ],
+   "minutos": 18,
+   "consejo": ""
+  },
+  {
+   "titulo": "¡Día 21: lo lograste!",
+   "ejercicios": [
+    "respiracion",
+    "puente",
+    "sentadilla",
+    "flexion",
+    "plancha",
+    "estiramiento",
+    "elevacion"
+   ],
+   "minutos": 20,
+   "consejo": "Hoy hacelo con calma y disfrutalo. Mirá todo lo que avanzaste."
+  }
+ ],
+ "checklist": [
+  "Hice mi rutina de hoy",
+  "Tomé 6 a 8 vasos de agua",
+  "Caminé 10 minutos",
+  "Me estiré antes de dormir"
+ ],
+ "frases": [
+  "El mejor momento para empezar es hoy.",
+  "Diez minutos también cuentan.",
+  "Tu cuerpo te va a agradecer cada día.",
+  "No hace falta hacerlo perfecto, hace falta hacerlo.",
+  "Constancia le gana a intensidad.",
+  "Mirá lo lejos que llegaste.",
+  "Un día a la vez."
+ ],
+ "felicitaciones": [
+  "Cada día suma. ¡Mañana seguimos!",
+  "¡Excelente! Tu constancia es tu superpoder.",
+  "¡Otro día más! Ya se está notando."
+ ],
+ "modulos": [
+  {
+   "id": "guia",
+   "emoji": "📖",
+   "titulo": "Guía para empezar",
+   "descripcion": "Cómo usar el plan y aprovecharlo al máximo",
+   "secciones": [
+    {
+     "titulo": "Cómo funciona",
+     "items": [
+      "Abrí la app todos los días y tocá 'Empezar rutina'.",
+      "Seguí el temporizador: te avisa cuándo pasar al siguiente ejercicio.",
+      "Si un día no podés, no pasa nada: seguí al otro día."
+     ]
+    },
+    {
+     "titulo": "Consejos",
+     "items": [
+      "Usá ropa cómoda y una colchoneta o toalla.",
+      "Respirá siempre: no aguantes el aire.",
+      "Hacelo a la misma hora todos los días para crear el hábito."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "comidas",
+   "emoji": "🥗",
+   "titulo": "Ideas de comidas simples",
+   "descripcion": "Platos fáciles para acompañar el plan",
+   "bonus": true,
+   "secciones": [
+    {
+     "titulo": "Desayunos",
+     "items": [
+      "Yogur natural con fruta y avena.",
+      "Tostada integral con queso y tomate.",
+      "Huevo revuelto con espinaca."
+     ]
+    },
+    {
+     "titulo": "Almuerzos y cenas",
+     "items": [
+      "Pollo al horno con calabaza y ensalada.",
+      "Tortilla de verduras.",
+      "Pescado con arroz integral y brócoli."
+     ]
+    }
+   ]
+  }
+ ],
+ "upsells": [
+  {
+   "id": "panza",
+   "emoji": "🔥",
+   "titulo": "Protocolo Panza Firme 14 días",
+   "gancho": "8 minutos extra por día, enfocados solo en la panza y la cintura.",
+   "descripcion": "Una rutina corta para sumar después de tu Pilates en la pared, pensada para trabajar abdomen y cintura sin abdominales que lastimen el cuello.",
+   "incluye": [
+    "14 rutinas cortas de 8 minutos",
+    "Ejercicios suaves para abdomen y cintura",
+    "Sin abdominales tradicionales: cuida el cuello y la espalda",
+    "Se suma a tu plan de 21 días"
+   ],
+   "precio": "ARS 3.997",
+   "precio_num": 3997,
+   "link_pago": "https://hsp68q-k3.myshopify.com/cart/67892572782812:1",
+   "codigo": "panza14x7",
+   "secciones": [
+    {
+     "titulo": "Cómo usarlo",
+     "items": [
+      "Hacelo justo después de tu rutina del día, o en otro momento.",
+      "Días 1 a 7: ronda A. Días 8 a 14: ronda B.",
+      "Si algo te molesta, hacé menos repeticiones o pará."
+     ]
+    },
+    {
+     "titulo": "Ronda A (días 1 a 7)",
+     "items": [
+      "1. Respiración con panza adentro, acostada — 1 minuto.",
+      "2. Rodillas al pecho alternadas, pies en la pared — 1 minuto.",
+      "3. Puente con apriete de panza — 1 minuto.",
+      "4. Plancha inclinada en la pared — 40 segundos.",
+      "5. Giro suave de rodillas acostada — 1 minuto.",
+      "6. Marcha lenta con pies en la pared — 1 minuto.",
+      "7. Estiramiento de cintura de pie — 1 minuto."
+     ]
+    },
+    {
+     "titulo": "Ronda B (días 8 a 14)",
+     "items": [
+      "1. Plancha inclinada en la pared — 50 segundos.",
+      "2. Rodilla al codo de pie, manos en la pared — 1 minuto.",
+      "3. Puente con marcha — 1 minuto.",
+      "4. Tijeras lentas con piernas en la pared — 1 minuto.",
+      "5. Giro de cintura sentada — 1 minuto.",
+      "6. Plancha lateral apoyada en la pared — 30 segundos por lado.",
+      "7. Respiración y estiramiento final — 1 minuto."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "comidas21",
+   "emoji": "🥗",
+   "titulo": "Plan de Comidas 21 Días",
+   "gancho": "Qué comer cada día para acompañar tu plan, con recetas fáciles y baratas.",
+   "descripcion": "Un menú simple de 21 días con comidas caseras, sin productos raros ni contar calorías.",
+   "incluye": [
+    "Menú día por día de desayuno, almuerzo y cena",
+    "Recetas de 15 minutos con ingredientes de todos los días",
+    "Lista de compras por semana",
+    "Ideas de colaciones para la tarde"
+   ],
+   "precio": "ARS 5.997",
+   "precio_num": 5997,
+   "link_pago": "https://hsp68q-k3.myshopify.com/cart/67892573372636:1",
+   "codigo": "menu21q4",
+   "secciones": [
+    {
+     "titulo": "Cómo funciona",
+     "items": [
+      "Cada semana tiene su lista de compras: comprás una vez y listo.",
+      "Podés cambiar un almuerzo por una cena del mismo día.",
+      "Tomá agua durante el día y comé despacio."
+     ]
+    },
+    {
+     "titulo": "Semana 1 — ejemplo de un día",
+     "items": [
+      "Desayuno: yogur natural con avena y banana.",
+      "Almuerzo: pollo al horno con calabaza y ensalada verde.",
+      "Colación: una fruta y un puñado de nueces.",
+      "Cena: tortilla de verduras con tomate."
+     ]
+    },
+    {
+     "titulo": "Lista de compras — semana 1",
+     "items": [
+      "Pollo, huevos, yogur natural, queso fresco.",
+      "Calabaza, zapallitos, tomate, lechuga, cebolla, espinaca.",
+      "Avena, arroz integral, pan integral.",
+      "Bananas, manzanas, naranjas, nueces."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "espalda",
+   "emoji": "🌿",
+   "titulo": "Espalda y Cuello sin Molestias",
+   "gancho": "10 minutos para aflojar la espalda, el cuello y las rodillas. Ideal después de los 45.",
+   "descripcion": "Rutinas suaves de movilidad y estiramiento para hacer en casa, a tu ritmo.",
+   "incluye": [
+    "7 rutinas de movilidad de 10 minutos",
+    "Para espalda baja, cuello, hombros y rodillas",
+    "Versión en silla para días de poca energía",
+    "Rutina de 5 minutos para antes de dormir"
+   ],
+   "precio": "ARS 4.997",
+   "precio_num": 4997,
+   "link_pago": "https://hsp68q-k3.myshopify.com/cart/67892573995228:1",
+   "codigo": "espalda7m3",
+   "secciones": [
+    {
+     "titulo": "Antes de empezar",
+     "items": [
+      "Movete despacio y sin dolor.",
+      "Si tenés una lesión o te operaron, consultá antes con tu médico."
+     ]
+    },
+    {
+     "titulo": "Rutina 1 — Espalda baja",
+     "items": [
+      "1. Rodillas al pecho, acostada — 1 minuto.",
+      "2. Báscula de pelvis — 1 minuto.",
+      "3. Gato y vaca en cuatro apoyos — 1 minuto.",
+      "4. Piernas arriba en la pared — 2 minutos.",
+      "5. Giro suave de rodillas — 1 minuto por lado."
+     ]
+    },
+    {
+     "titulo": "Rutina 2 — Cuello y hombros",
+     "items": [
+      "1. Círculos de hombros — 1 minuto.",
+      "2. Ángel en la pared — 1 minuto.",
+      "3. Estiramiento lateral de cuello — 30 segundos por lado.",
+      "4. Apertura de pecho en el marco de la puerta — 1 minuto.",
+      "5. Respiración lenta — 1 minuto."
+     ]
+    }
+   ]
+  }
+ ],
+ "link_principal": "https://hsp68q-k3.myshopify.com/cart/67892571930844:1"
+}
